@@ -6,7 +6,8 @@ import Services from './pages/Services';
 import Products from './pages/Products';
 import ContactUs from './pages/ContactUs';
 import NotFound from './pages/NotFound';
-import SignUp from './pages/signUp/SignUp';
+// import SignUp from './pages/signUp/SignUp';
+import Generic from './components/Generic';
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
           <Route path='/services' element={<Services/>}/>
           <Route path='/products' element={<Products/>}/>
           <Route path='/contact-us' element={<ContactUs/>}/>
-          <Route path='/sign-up' element={<SignUp/>}/>
+          <Route path='/sign-up' element={<Generic/>}/>
         </Route>
           <Route path='*' element={<NotFound/>}/>
       </Routes>

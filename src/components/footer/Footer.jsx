@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className='footer'>
       <p style={{ letterSpacing: "1.3px" }}>Footer Page 2022 <br /></p>
-      <span> &copy; copyright all rights !reserved</span>
+      <span> &copy; Copyright All Rights !Reserved</span>
     </div>
   )
 }
