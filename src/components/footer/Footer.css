@@ -1,0 +1,19 @@
+
+.footer{
+  flex: 0 0 auto;
+  height: 80px;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer p{
+  color: #fff;
+  margin-bottom: 10px;
+}
+.footer span {
+  font-size: 14px;
+  color: #999;
+}
